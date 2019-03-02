@@ -1,0 +1,51 @@
+img {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  overflow: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  font-family: Scada;
+  font-size: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn{
+  width: 155px;
+  height: 50px;
+  background: #9A73ED;
+  color: white;
+  font-family: Scada;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-top: 100px;
+}
+
+.text{
+  position: absolute;
+  font-family: Scada;
+  font-size: 30px;
+  width: 800px;
+  text-align: center;
+  left: 23%;
+}
+
+.triplet{
+  width: 100%;
+  margin-top: 190px;
+}
