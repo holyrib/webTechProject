@@ -1,25 +1,17 @@
 <div class="navbar">
-  <a href="#" (click)="setTab('shop')">
+  <a href="/">
     <p>shop</p>
   </a>
-  <a href="#" (click)="setTab('look')">
+  <a href="/look">
     <p>look</p>
   </a>
-  <a href="#" (click)="setTab('learn')">
+  <a href="/learn">
     <p>learn</p>
   </a>
   <p class="logo">Planetarium</p>
-  <a href="#">
-    <p class="right" (click)="setTab('cart')">cart</p>
+  <a href="/cart">
+    <p class="right">cart</p>
   </a>
 </div>
-
-<app-shop *ngIf="tab == 'shop'"></app-shop>
-
-<app-cart *ngIf="tab == 'cart'"></app-cart>
-
-<app-learn *ngIf="tab == 'learn'"></app-learn>
-
-<app-look *ngIf="tab == 'look'"></app-look>
 
 <div class="bg"></div>
